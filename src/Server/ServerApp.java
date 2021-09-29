@@ -23,7 +23,6 @@ public class ServerApp {
 			
 		}
 		catch(Exception e){
-			
 			System.err.println("Server exception: " + e.toString());
             e.printStackTrace();
 			
