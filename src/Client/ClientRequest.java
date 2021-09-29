@@ -10,7 +10,6 @@ public class ClientRequest {
     
     public static void main(String[] args) {
 
-        String host = (args.length < 1) ? null : args[0];
         try {
             Registry registry = LocateRegistry.getRegistry(8080);
             RMIInterface stub = (RMIInterface) registry.lookup("rmi");
