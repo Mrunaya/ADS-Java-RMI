@@ -1,0 +1,4 @@
+remoteStringArray
+5
+Mango Banana Starwberry Apple Orenge 
+1099
